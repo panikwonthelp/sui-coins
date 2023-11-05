@@ -5,7 +5,7 @@ export const GlobalStyles = css`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Satoshi-Medium', 'Proto Mono', monospace;
+    font-family: 'Satoshi', 'Proto Mono', monospace;
   }
 
   html {
