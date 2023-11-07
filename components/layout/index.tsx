@@ -11,8 +11,15 @@ const Layout: FC<PropsWithChildren> = ({ children }) => (
     mixBlendMode="color-burn"
     background="url('/images/gradient.webp'), url('/images/noice.webp')"
     backgroundSize="cover"
+    position="relative"
   >
-    <Box width="100%" display="flex" variant="container" flexDirection="column">
+    <Box
+      width="100%"
+      variant="container"
+      display="flex"
+      flexDirection="column"
+      mt="4xl"
+    >
       <Header />
       <Box as="main" flex="1">
         {children}

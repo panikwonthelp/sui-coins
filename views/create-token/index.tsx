@@ -7,7 +7,12 @@ import CreateTokenForm from './create-token-form';
 
 const CreateToken: FC = () => (
   <Layout>
-    <Box my="3xl" display="flex" justifyContent="space-around">
+    <Box
+      my="3xl"
+      display="flex"
+      flexDirection={['column', 'column', 'column', 'row']}
+      justifyContent="space-around"
+    >
       <Box />
       <CreateTokenForm />
     </Box>

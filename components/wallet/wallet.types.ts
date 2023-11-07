@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 export interface WalletDropdownProps {
   isOpen: boolean;
   loading: boolean;
@@ -9,4 +10,13 @@ export type WalletDropdownWrapperProps = WalletDropdownProps;
 
 export interface WalletItemProps {
   name?: 'disconnect';
+}
+
+export interface ConnectWalletProps {
+  connectText?: ReactNode;
+  connectedText?: ReactNode;
+}
+
+export interface WalletProps {
+  openMenu: () => void;
 }

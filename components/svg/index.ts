@@ -1,7 +1,14 @@
+export { default as CircleSVG } from './circle';
+export { default as ClosedSVG } from './closed';
 export { default as ComputerEyesSVG } from './computer-eyes';
+export { default as CopySVG } from './copy';
 export { default as DiedComputerSVG } from './died-computer';
 export { default as ErrorSVG } from './error';
 export { default as HeartSVG } from './heart';
 export { default as IPXSVG } from './ipx';
+export { default as LoadingSVG } from './loading';
 export { default as LogoSVG } from './logo';
+export { default as MenuSVG } from './menu';
+export { default as SuiSVG } from './sui';
 export { default as TickSVG } from './tick';
+export { default as UserSVG } from './user';
